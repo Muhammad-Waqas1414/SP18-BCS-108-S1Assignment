@@ -1,0 +1,43 @@
+.navi {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #000000;
+}
+.navi ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.navi li {
+	float: left;
+}
+.navi li a {
+	display: block;
+	padding: 3px 15px;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  margin:0;
+  padding:0;
+
+}
+
+.img-container img{
+  -moz-transition:all .8s;-webkit-transition:all .8s;transition:all .8s
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);  
+}
+.img-container:hover img{
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);  
+}
